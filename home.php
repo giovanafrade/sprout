@@ -460,7 +460,7 @@
       <nav class="menu-lateral">
         <ul>
           <li class="item-menu1">
-            <img src="Icones_de_Navegacao/Contatos.png.png" id="pagina_contatos" data-alvo="main_contatos"
+            <img src="Icones_de_Navegacao/contatos.png.png" id="pagina_contatos" data-alvo="main_contatos"
               class="Paginas_Storage">
             <span class="nome-item-menu1">Contatos</span>
           </li>
@@ -475,7 +475,7 @@
             <span class="nome-item-menu">Grupos</span>
           </li>
           <li class="addcontato_bt">
-            <img src="Icones_de_Navegacao/AdicionarNovo.png.png" id="addContatos_lateral" onclick="carregarLista('contatos_Contatos.html')">
+            <img src="Icones_de_Navegacao/adicionarnovo.png.png" id="addContatos_lateral" onclick="carregarLista('contatos_Contatos.html')">
             <span class="nome-addctt">Criar</span>
           </li>
         </ul>
