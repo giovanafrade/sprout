@@ -20,7 +20,7 @@
   <div class="header tema_background">
     <div class="alinhamento_bola_box_header">
       <a href="home.php">
-        <img src="Icones_de_Navegacao/LogoBranca.png.png" class="LogoBranca">
+        <img src="icones_de_navegacao/logo.png" class="LogoBranca">
       </a>
       <div class="iconesHeaderPesquisa">
         <div class="barra_de_pesquisa"> <input type="text">
@@ -74,7 +74,7 @@
     <!-- Grupos Padrões -->
 
       <div>
-        <img src="Icones_de_Navegacao/Favoritos.png" class="icon" id="Favoritos" onclick="carregarLista('contatos_Favoritos.html')">
+        <img src="icones_de_navegacao/favoritos.png" class="icon" id="Favoritos" onclick="carregarLista('contatos_Favoritos.html')">
           <div class="infoGrupo">
             <div class="Nome_do_Grupo"><p>Favoritos</p></div>
             <div class="descr_do_Grupo"><i><p>Grupo dos Favoritos</p></i></div>
@@ -82,7 +82,7 @@
       </div>
 
       <div>
-        <img src="Icones_de_Navegacao/Família.png" class="icon" id="Familia" onclick="carregarLista('contatos_Familia.html')">
+        <img src="icones_de_navegacao/familia.png" class="icon" id="Familia" onclick="carregarLista('contatos_Familia.html')">
         <div class="infoGrupo">
             <div class="Nome_do_Grupo"><p>Família</p></div>
            <div class="descr_do_Grupo"><i><p>Grupo da Família</p></i></div>
@@ -159,14 +159,14 @@
 
 
       <div class="hidden" id="hidden1">
-      <img src="Icones_de_Navegacao/Favoritos.png" class="icon" onclick="carregarLista('contatos_Favoritos.html')">
+      <img src="icones_de_navegacao/favoritos.png" class="icon" onclick="carregarLista('contatos_Favoritos.html')">
           <div class="infoGrupo">
             <div class="Nome_do_Grupo"><p></p></div>
             <div class="descr_do_Grupo"><p></p></div>
           </div>
       </div>
       <div class="hidden" id="hidden2">
-      <img src="Icones_de_Navegacao/Favoritos.png" class="icon" onclick="carregarLista('contatos_Favoritos.html')">
+      <img src="icones_de_navegacao/favoritos.png" class="icon" onclick="carregarLista('contatos_Favoritos.html')">
           <div class="infoGrupo">
             <div class="Nome_do_Grupo"><p></p></div>
             <div class="descr_do_Grupo"><p></p></div>
@@ -460,12 +460,12 @@
       <nav class="menu-lateral">
         <ul>
           <li class="item-menu1">
-            <img src="Icones_de_Navegacao/contatos.png.png" id="pagina_contatos" data-alvo="main_contatos"
+            <img src="icones_de_Navegacao/contatos.png" id="pagina_contatos" data-alvo="main_contatos"
               class="Paginas_Storage">
             <span class="nome-item-menu1">Contatos</span>
           </li>
           <li class="item-menu">
-            <img src="Icones_de_Navegacao/Favoritos.png.png" id="pagina_favoritos" data-alvo="main_favoritos"
+            <img src="Icones_de_Navegacao/favoritos_menu.png" id="pagina_favoritos" data-alvo="main_favoritos"
               class="Paginas_Storage">
             <span class="nome-item-menu">Favoritos</span>
           </li>
