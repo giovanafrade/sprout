@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: sans-serif;
+  overflow: hidden;
+  transition: margin-left 0.3s;
+  background-image: url(backgrounds/backgroundlogin.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+  }
+
+  body.com-barra-retraida main {
+    margin-left: 200px;
+  }
+  .header, footer {
+    height: 10vh;
+    background: rgb(0, 199, 123);
+    text-align: center;
+    line-height: 10vh;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .conteudoHeader{
+    text-align: center;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  
+  .conteudoHeader img{
+    width: 10%;
+    transition: transform 0.2s;
+  }
+  
+  .conteudoHeader img:hover{
+    transform: scale(0.9);
+  }
+  
+  .LogoBrancaLink {
+  width: 15%;
+  padding: 0;
+  object-fit: contain;
+  text-align: center;
+  justify-content: center;
+  }
+
+  .LogoBranca {
+    width: 75%;
+    margin-top: 10%;
+    
+  }
+
+  .LogoBranca {
+    width: 75%;
+    margin-top: 10%;
+  }
+
+.telacadastro{ /*Bloco que contém as informações do cadastro*/
+    margin-top: 45px;
+    border-radius: 30px;
+    background-color: #8686863f;
+    height: 700px;
+    width: 500px;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    backdrop-filter: blur(20px); 
+
+    a{
+        color: rgb(255, 255, 255);
+        text-decoration:underline;
+        font-family:"Montserrat", sans-serif; 
+       
+    }
+
+    p{
+        font-family:"Montserrat", sans-serif;
+         padding-top: 7%;
+    }
+    label{
+       padding-top: 7%;
+    }
+        
+
+
+}
+.botaoentrar{
+    input{
+        background-color: #00d48e;
+        border: 2px solid #00b67a;
+        color: white;
+        border-radius: 50px;
+        margin-top: 40px ;
+        padding: 3%;
+        width: 35%;
+        height: 30%;
+        font-family:"Montserrat", sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: #ffff;
+        transition: background-color 0.3s ease;
+    }
+    input:hover{
+      background-color: #00b67a;
+    }
+}
+.ajudacadastro{ 
+   display: flex;
+   justify-content: space-evenly;
+   color: white;
+
+
+  label{
+    font-family:"Montserrat", sans-serif;
+    color: white;
+
+  }
+  
+  input{
+    margin-right: 8px;
+    color: white;
+  }
+}
+
+.inputbox{ /*Box para estilizar o input*/
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0 ;
+  
+
+}
+.inputbox input{ /*Estilização do input*/
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border: 2.4px solid rgba(255, 255, 255, 0.445);
+  border-radius: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  padding: 20px 45px 20px 20px;
+  color: white;
+}
+
+
+.box{
+  width: 500px;
+  padding: 20px;
+
+
+}
+.inputbox i{
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+}
+.inputbox input::placeholder{
+  color: white;
+
+}
+
+.cadastro_p{
+    font-family:"Montserrat", sans-serif;
+    color: white;
+
+}
+
+.imagemcadastro{
+  margin-top: 40px;
+}

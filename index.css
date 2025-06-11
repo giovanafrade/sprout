@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  transition: margin-left 0.3s;
+  background-image: url(backgrounds/backgroundhome.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body.com-barra-retraida main {
+  margin-left: 200px;
+}
+/* Header */
+.header {
+  height: 10vh;
+  background: #00b67a;
+  text-align: center;
+  line-height: 10vh;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.LogoBrancaLink {
+  width: 15%;
+  padding: 0;
+  object-fit: contain;
+  text-align: center;
+  justify-content: center;
+}
+
+.LogoBranca {
+  margin-left: 10%;
+  margin-top: 12.5%;
+  width: 100%;
+  padding: 0;
+}
+.align_entrar {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: right;
+  display: flex;
+}
+.botao_entrar {
+  margin-right: 30px;
+  background-color: #00d48e;
+  border: 2px solid #00b67a;
+  border-radius: 250px;
+  height: 50%;
+  width: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  a {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: white;
+  }
+}
+.botao_entrar:hover {
+  background-color: #00a36d;
+}
+
+
+
+/* Texto sobre o Sprout */
+.TEXTO1 {
+  color: rgb(255, 255, 255);
+  background-color: #00d48e;
+  margin-left: 100px;
+  width: 50%;
+  height: fit-content;
+  font-size: 100%;
+  font-size: 100%;
+  h1 {
+    padding-top: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 300%;
+    width: 80%;
+  }
+  p {
+    padding-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-style: bold;
+    font-size: 200%;
+    width: 80%;
+  }
+}
+/* Botão que linka para a tela de cadastro - Primeiro Contato */
+.login {
+  margin-top: 300px;
+  background-color: #00d48e;
+  border: 2px solid #00b67a;
+  border-radius: 250px;
+  font-family: "Montserrat", sans-serif;
+  width: 20%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+  transition: background-color 0.3s ease;
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+}
+.login:hover {
+  background-color: #00b67a;
+}
+
+/* Vantagens de usar o Sprout */
+.fundobranco {
+  background-image: linear-gradient(
+    to bottom,
+    transparent,
+    white,
+    white,
+    white,
+    white
+  );
+  align-items: center;
+  justify-content: center;
+  width: 100;
+  height: 1200px;
+}
+.vantagens {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+  margin-top: 250px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 300%;
+  margin-bottom: 100px;
+  color: #028b5e;
+}
+/* Classes das divs que contém as vantagens de usar o Sprout */
+.informacoes {
+  text-align: center;
+  border-radius: 100px;
+  display: flex;
+  width: 100%;
+  align-self: flex-end;
+  margin-left: 100pxpx;
+  margin-right: 100px;
+  position: relative;
+}
+
+.informacoes_filho {
+  width: 33.33%;
+  height: 550px;
+  background-image: linear-gradient(to bottom, transparent, #00b67a);
+  border-radius: 40px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 40px;
+  backdrop-filter: blur(20px);
+  h1 {
+    color: #028b5e;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 200%;
+    margin-top: 50px;
+  }
+  ul {
+    margin-top: 40px;
+    list-style: none;
+    width: 1;
+  }
+  li {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: fit-content;
+    margin-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: large;
+    text-align: left;
+  }
+}
+
+/* Footer */
+.footer {
+  background-color: #00b67a;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+.social-icons {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  justify-items: center;
+  margin-left: 70px;
+  a{
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+.col-md-6 {
+  display: flex;
+}

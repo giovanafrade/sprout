@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cadastro</title>
+  <link rel="stylesheet" href="cadastro.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <div class="header"> 
+    <a href="home.php"><img src="Icones_de_Navegacao/LogoBranca.png.png" class="LogoBranca"></a>
+    <div class="conteudoHeader">
+    </div>
+  </div>
+
+
+  <div class="telacadastro">
+    <div class="imagemcadastro"><img class="usericon"src="Icones_de_Navegacao/LogoBranca.png.png"></div> 
+    <!-- FORM -->
+    <form method="post" id="formCadastro"> 
+      <div class="box">
+
+        <div class="inputbox"><input type="text" placeholder="Usuário" name="usuario" id="usuario"><i class='bx  bx-user'  ></i> </div>
+        <div class="inputbox"><input type="text" placeholder="CPF" name="cpf" id="cpf"><i class='bx  bxs-user-id-card'></i>  </div>
+        <div class="inputbox"><input type="email" placeholder="E-mail" name="email" id="email"><i class='bx  bx-mail-open'  ></i> </div>
+        <div class="inputbox"><input type="password" placeholder="Senha" name="senha" id="senha"><i class='bx  bx-lock-keyhole'  ></i> </div>
+        
+      </div>
+        
+      <br>
+      <div class="ajudacadastro">
+        <label><input type="checkbox" required>Aceito os <U>Termos de Uso</U> e nossa <u>Política de Privacidade</u></label>
+      </div>
+      <div class="botaoentrar"><input type="submit" value="Cadastre-se"></div>
+    </form>
+    <div id="mensagemCadastro" style="display: none; color: green; text-align: center;">
+      ✅ Cadastro realizado com sucesso!
+    </div>
+    <p class="cadastro_p">Já tem uma conta? <a href="login.html">Faça Login!</a></p>
+  </div>
+  
+  </div>
+
+  <script src="testecriarconta.js"></script>
+</body>
+
+</html>
