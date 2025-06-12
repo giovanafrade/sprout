@@ -74,7 +74,7 @@
     <!-- Grupos Padrões -->
 
       <div>
-        <img src="icones_de_navegacao/favoritos_verde.png" class="icon" id="Favoritos" onclick="carregarLista('contatos_Favoritos.html')">
+        <img src="icones_de_navegacao/favoritos_verde.png" class="icon" id="Favoritos" onclick="carregarLista('contatos_favoritos.html')">
           <div class="infoGrupo">
             <div class="Nome_do_Grupo"><p>Favoritos</p></div>
             <div class="descr_do_Grupo"><i><p>Grupo dos Favoritos</p></i></div>
@@ -82,7 +82,7 @@
       </div>
 
       <div>
-        <img src="icones_de_navegacao/familia.png" class="icon" id="Familia" onclick="carregarLista('contatos_Familia.html')">
+        <img src="icones_de_navegacao/familia.png" class="icon" id="Familia" onclick="carregarLista('contatos_familia.html')">
         <div class="infoGrupo">
             <div class="Nome_do_Grupo"><p>Família</p></div>
            <div class="descr_do_Grupo"><i><p>Grupo da Família</p></i></div>
@@ -159,14 +159,14 @@
 
 
       <div class="hidden" id="hidden1">
-      <img src="icones_de_navegacao/favoritos.png" class="icon" onclick="carregarLista('contatos_Favoritos.html')">
+      <img src="icones_de_navegacao/favoritos.png" class="icon" onclick="carregarLista('contatos_favoritos.html')">
           <div class="infoGrupo">
             <div class="Nome_do_Grupo"><p></p></div>
             <div class="descr_do_Grupo"><p></p></div>
           </div>
       </div>
       <div class="hidden" id="hidden2">
-      <img src="icones_de_navegacao/favoritos.png" class="icon" onclick="carregarLista('contatos_Favoritos.html')">
+      <img src="icones_de_navegacao/favoritos.png" class="icon" onclick="carregarLista('contatos_favoritos.html')">
           <div class="infoGrupo">
             <div class="Nome_do_Grupo"><p></p></div>
             <div class="descr_do_Grupo"><p></p></div>
@@ -218,7 +218,7 @@
             });
 
 
-            fetch("contatos_Favoritos.html")
+            fetch("contatos_favoritos.html")
               .then(res => {
                 if (!res.ok) throw new Error('Erro ao carregar favoritos');
                 return res.text();
@@ -309,7 +309,7 @@
             });
 
 
-            fetch("contatos_Familia.html")
+            fetch("contatos_familia.html")
               .then(res => {
                 if (!res.ok) throw new Error('Erro ao carregar familia');
                 return res.text();
@@ -397,7 +397,7 @@
             });
 
 
-            fetch("contatos_Contatos.html")
+            fetch("contatos_contatos.html")
               .then(res => {
                 if (!res.ok) throw new Error('Erro ao carregar contatos');
                 return res.text();
@@ -475,7 +475,7 @@
             <span class="nome-item-menu">Grupos</span>
           </li>
           <li class="addcontato_bt">
-            <img src="icones_de_navegacao/adicionarnovo.png" id="addContatos_lateral" onclick="carregarLista('contatos_Contatos.html')">
+            <img src="icones_de_navegacao/adicionarnovo.png" id="addContatos_lateral" onclick="carregarLista('contatos_contatos.html')">
             <span class="nome-addctt">Criar</span>
           </li>
         </ul>
