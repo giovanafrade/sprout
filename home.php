@@ -460,7 +460,7 @@
       <nav class="menu-lateral">
         <ul>
           <li class="item-menu1">
-            <img src="icones_de_Navegacao/contatos.png" id="pagina_contatos" data-alvo="main_contatos"
+            <img src="icones_de_navegacao/contatos.png" id="pagina_contatos" data-alvo="main_contatos"
               class="Paginas_Storage">
             <span class="nome-item-menu1">Contatos</span>
           </li>
